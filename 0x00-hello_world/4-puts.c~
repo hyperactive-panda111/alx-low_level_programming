@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 /**
- * 
- * main - executing function
+ *
+ * main - execution point
  * return value : 0(Success)
  */
 
