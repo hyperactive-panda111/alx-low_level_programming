@@ -3,13 +3,12 @@
 #include <stdio.h>
 
 /**
- *
  * main - print last digit
  *
  * Return: Always 0 (Success)
  */
 
-int main (void)
+int main(void)
 {
 	int n, d;
 
@@ -28,7 +27,7 @@ int main (void)
 	}
 	else
 	{
-		printf("Last digit of %d of %d is less than 6 and not 0\n", n, d);
+		printf("Last digit of %d of %d and is less than 6 and not 0\n", n, d);
 	}
 	return (0);
 }
