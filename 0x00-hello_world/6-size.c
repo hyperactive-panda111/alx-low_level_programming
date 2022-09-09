@@ -1,24 +1,24 @@
 #include <stdio.h>
 
 /**
- *main - execting function
+ * main - Entry point
  *
- *Return: sucess = 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	char character;
 	int i;
-	float f;
 	long l;
 	long ll;
+	float f;
 
-	printf("size of a char: %lu byte\n", (unsigned long)sizeof(character));
-	printf("size of an int: %lu byte(s)\n", (unsigned long)size of(i));
-	printf("size of a float: %lu bytes\n", (unsigned long)sizeof(f));
-	printf("size of a long: %lu bytes\n", (unsigned long)sizeof(l));
-	printf("size of a long long: %lu bytes\n", (unsigned long)sizeof(ll));
+	printf("Size of a char: %lu byte(s)\n", sizeof(character));
+	printf("Size of an int: %lu byte(s)\n", sizeof(i));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(l));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(ll));
+	printf("Size of a float: %lu byte(s)\n", sizeof(f));
 
 	return (0);
 }
