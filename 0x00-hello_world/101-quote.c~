@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /*
- * main - executing function
+ * main - Entry point
  *
  * Description: 'and that piece of art is useful"
  *
