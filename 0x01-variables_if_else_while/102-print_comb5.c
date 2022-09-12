@@ -10,9 +10,6 @@ int main(void)
 {
 	int a, b;
 
-	int a = 0;
-	int b = 0;
-
 	for (a = 0; a <= 98; a++)
 		for (b = 0; b <= 99; b++)
 		{
