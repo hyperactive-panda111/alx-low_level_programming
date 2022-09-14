@@ -8,13 +8,19 @@
 
 void print_to_98(int n)
 {
-	int i;
-
-	for (i = n; i < 99; i++)
+	if (n > 98)
 	{
-		_putchar((n/10) + 48);
-		_putchar((n%10) + 48);
-		_putchar(44);
-		_putchar(32);
+		for (; n > 98; n--)
+		{
+			printf("%d, ", n);
+		}
+	}
+	else if (n < 98)
+	{
+		for (; n < 99; n++)
+		{
+			printf("%d, ", n);
+		}
 	}
 }
+		
