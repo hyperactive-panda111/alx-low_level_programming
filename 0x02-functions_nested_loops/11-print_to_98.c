@@ -4,7 +4,7 @@
 /**
  * print_to_98 - print sequentially from n to 98
  *
- * @n: input value 
+ * @n: input value
  * Return: 0(Success)
  */
 
