@@ -4,6 +4,7 @@
 /**
  * print_to_98 - print sequentially from n to 98
  *
+ * @n: input value 
  * Return: 0(Success)
  */
 
@@ -24,4 +25,3 @@ void print_to_98(int n)
 		}
 	}
 }
-		
