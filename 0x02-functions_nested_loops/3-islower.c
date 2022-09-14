@@ -3,6 +3,8 @@
 /**
  * _islower - run checks to verify if input is lowercase
  *
+ * @c : character checked in ASCII
+ * 
  * Return: 1 if successful
  */
 
