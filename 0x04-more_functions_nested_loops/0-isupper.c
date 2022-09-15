@@ -5,7 +5,6 @@
  * @c: input value
  * Return: 1(Success), else 0
  */
-
 int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
