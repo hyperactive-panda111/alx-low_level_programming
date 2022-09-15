@@ -9,7 +9,11 @@
 int _isupper(int c)
 {
 	if (n >= 65 && n <= 90)
+	{
 		return (0);
+	}
 	else
+	{
 		return (1);
+	}
 }

@@ -2,7 +2,7 @@
 
 /**
  * _isupper - check if input is an uppercase character
- * @n: input value
+ * @c: input value
  * Return: 1(Success), else 0
  */
 
