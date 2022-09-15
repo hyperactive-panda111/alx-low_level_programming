@@ -3,7 +3,7 @@
 /**
  * main - print negative, positive or zero based on input
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 
 int main(void)
