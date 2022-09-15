@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* print_diagonal - print diagonal of n length
-* @n: parameter
-* Return: void
-*/
+ * print_diagonal - print diagonal of n length
+ * @n: parameter
+ * Return: void
+ */
 
 void print_diagonal(int n);
 {
