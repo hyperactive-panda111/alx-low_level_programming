@@ -18,7 +18,7 @@ void print_square(int size)
 		}
 		_putchar(10);
 		if (a != size - 1)
-		_putchar(10);
+			_putchar(10);
 	}
 	_putchar(10);
 }
