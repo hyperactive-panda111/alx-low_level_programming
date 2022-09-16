@@ -1,10 +1,10 @@
 #include "main.h'
 
 /**
-* print_square - print n squares n times
-* @size: parameter
-* Return: void
-*/
+ * print_square - print n squares n times
+ * @size: parameter
+ * Return: void
+ */
 
 void print_square(int size)
 {
