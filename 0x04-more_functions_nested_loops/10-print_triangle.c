@@ -23,4 +23,5 @@ void print_triangle(int size)
 		if (a != size)
 			_putchar(10);
 	}
+	_putchar(10);
 }
