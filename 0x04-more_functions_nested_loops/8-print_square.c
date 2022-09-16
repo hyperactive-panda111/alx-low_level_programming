@@ -2,7 +2,7 @@
 
 /**
  * print_square - print n squares n times
- * @size: parameter
+ * @size: size of the square
  * Return: void
  */
 
@@ -16,7 +16,6 @@ void print_square(int size)
 		{
 			_putchar(35);
 		}
-		_putchar(10);
 		if (a != size - 1)
 			_putchar(10);
 	}
