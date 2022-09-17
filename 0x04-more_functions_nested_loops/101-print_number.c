@@ -30,7 +30,7 @@ void print_number(int n)
 		ab *= 10;
 	}
 
-	for (; ab >= 10; ab /= 10)
+	for (; ab >= 1; ab /= 10)
 		_putchar(((a / ab) % 10) + 48);
 }
 
