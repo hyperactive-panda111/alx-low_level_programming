@@ -11,6 +11,7 @@ int main(void)
 
 	n = 612852475143;
 	div = 2;
+	maxPrime = 0;
 
 	while (n != 0)
 	{
@@ -24,7 +25,7 @@ int main(void)
 
 			if (n == 1)
 			{
-				printf("%d\n");
+				printf("%ld\n", maxPrime);
 				break;
 			}
 		}
