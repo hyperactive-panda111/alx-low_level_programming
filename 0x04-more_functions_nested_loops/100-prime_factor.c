@@ -15,13 +15,13 @@ int main(void)
 
 	while (n != 0)
 	{
-		if (n != 0)
-		div += 1;
+		if (n % div != 0)
+		div = div + 1;
 
 		else
 		{
 			maxPrime = n;
-			n /= div;
+			n = n / div;
 
 			if (n == 1)
 			{
