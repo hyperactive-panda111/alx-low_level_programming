@@ -10,12 +10,12 @@ void rev_string(char *s)
 {
 	int i = 0;
 	int length = 0;
+	int a;
+	int b;
 
 	while (s[i] != '\0')
 		++length;
 
-	int a;
-	int b;
 
 	for (a = 0; a < length - 1; a++)
 		_putchar(s[a]);
