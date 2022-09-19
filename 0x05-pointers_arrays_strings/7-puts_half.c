@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * puts_half - print second half of string
- * @str: paramater (string)
+ * puts_half - prints second half of string
+ * @str: parameter
  * Return: void
  */
 
 void puts_half(char *str)
 {
+	int a, b;
 	int i = 0;
-	int a = 0;
-	int n = 0;
 	int length = 0;
 
 	while (str[i] != '\0')
@@ -19,9 +18,9 @@ void puts_half(char *str)
 		++i;
 	}
 
-	n = ((length - 1) / 2);
+	b = (length / 2) - 1;
 
-	for (a = (n + 1); a < length; a++)
+	for (a = b + 1; b < length; b++)
 		_putchar(str[a]);
 	_putchar(10);
 }
