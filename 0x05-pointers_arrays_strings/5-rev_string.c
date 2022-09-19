@@ -14,7 +14,10 @@ void rev_string(char *s)
 	int b;
 
 	while (s[i] != '\0')
+	{
 		++length;
+		++i;
+	}
 
 
 	for (a = 0; a < length - 1; a++)
@@ -24,5 +27,5 @@ void rev_string(char *s)
 	for (b = length - 1; b >= 0; a--)
 		_putchar(s[b]);
 	_putchar(10);
-}
+}}
 
