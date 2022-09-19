@@ -28,7 +28,7 @@ void rev_string(char *s)
 		{
 			tmp = *(t + b);
 			*(t + b) = *(t + (b - 1));
-			*(t + (b - 1))  = *tmp;
+			*(t + (b - 1))  = tmp;
 		}
 	}
 }
