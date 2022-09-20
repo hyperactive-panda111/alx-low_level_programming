@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 
 /**
  * _strcpy - copy string
@@ -21,5 +21,8 @@ char *_strcpy(char *dest, char *src)
 
 	for (; a <= length; a++)
 		dest[a] = src[a];
-}		dest[a] = '\0';
+	dest[a] = '\0';
+
+		return (dest);
+}
 
