@@ -22,10 +22,9 @@ char *cap_string(char *n)
 			if (n[i] == sep[y])
 			{
 				if (n[i + 1] >= 97 && n[i + 1] <= 122)
-		
 					n[i + 1] = n[i + 1] - 32;
 				break;
-			}	
+			}
 		}
 		i++;
 	}
