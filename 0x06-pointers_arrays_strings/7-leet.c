@@ -1,31 +1,31 @@
-#include "main.h"
-
+#include "holberton.h"
 /**
- * leet - encodes strings to 1337
- * @n: parameter
- * Return: pointer to dest
+ * leet - encodes a string into 1337
+ * @s: input string.
+ * Return: the pointer to dest.
  */
 
-char *leet(char *n)
+char *leet(char *s)
 {
-	int i = 0;
-	int y;
-	int upper[] = {65, 69, 79, 84, 76};
-	int lower[] = {97, 101, 111, 116, 108};
-	int con[] = {52, 51, 48, 55, 49};
+	int count = 0, i;
+	int low_letters[] = {97, 101, 111, 116, 108};
+	int upp_letters[] = {65, 69, 79, 84, 76};
+	int numbers[] = {52, 51, 48, 55, 49};
 
-	while (n[i] != '\0')
+	while (*(s + count) != '\0')
 	{
-		for (y = 0; y < 5; y++)
+		for (i = 0; i < 5; i++)
 		{
-			if (n[i] == upper[y] || n[i] == lower[y])
+			if (*(s + count) == low_letters[i] || *(s + count) == upp_letters[i])
 			{
-				n[i] = con[i];
+				*(s + count) = numbers[i];
 				break;
 			}
 		}
-		i++;
+	count++;
+
 	}
-	return (n);
+
+	return (s);
 }
 
