@@ -13,7 +13,7 @@ char *cap_string(char *n)
 
 	if (n[i] >= 97 && n[i] <= 122)
 		n[i] -= 32;
-	++i;
+	i++;
 
 	while (n[i] != '\0')
 	{
@@ -22,12 +22,12 @@ char *cap_string(char *n)
 			if (n[i] == sep[y])
 			{
 				if (n[i + 1] >= 97 && n[i + 1] <= 122)
-				{
+			{
 					n[i + 1] = n[i + 1] - 32;
-					break;
-				}
+				break;
 			}
 		}
+		i++;
 	}
 
 	return (n);
