@@ -2,13 +2,13 @@
 
 /**
  * print_number - uses _putchar to print integer
- * n: input integer
+ * @n: input integer
  * Return: void
  */
 
 void print_number(int n)
 {
-	unsigned int i = 1, x, d;
+	unsigned int i, x, d;
 
 	if (n < 0)
 	{
@@ -16,9 +16,12 @@ void print_number(int n)
 		x = n * -1;
 	}
 	else
+	{
 		x = n;
+	}
 
 	d = x;
+	i = 1;
 
 	while (d > 9)
 	{
