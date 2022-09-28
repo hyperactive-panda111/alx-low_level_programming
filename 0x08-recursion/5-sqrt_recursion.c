@@ -15,7 +15,7 @@ int sqrt_check(int begin, int end, int a)
 	if (end >= begin)
 	{
 		mid = begin + (end + begin) / 2;
-		if (mid * mid == m)
+		if (mid * mid == a)
 			return (mid);
 
 		if (mid * mid > a)
