@@ -15,6 +15,7 @@ int check(int n, int base)
 		return (1);
 	else if (base > n)
 		return (check(n + 1, base));
+	return (1);
 }
 
 /**
