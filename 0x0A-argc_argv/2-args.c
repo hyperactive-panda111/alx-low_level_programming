@@ -2,8 +2,8 @@
 
 /**
  * main - executing function
- * argc: count
- * argv: vector
+ * @argc: count
+ * @argv: vector
  * Return: 0 if success, else 1
  */
 
