@@ -38,7 +38,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	for (; a < i; a++)
 		arr[a] = s1[a];
-	
+
 	for (c = 0; c <= j; a++, c++)
 		arr[a] = s2[c];
 
