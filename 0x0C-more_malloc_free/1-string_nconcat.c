@@ -39,7 +39,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		if (i < count)
 			c[i] = s1[i];
 		else
-			c[i] = s2[count - i];
+			c[i] = s2[i - a];
 	}
 	c[i] = '\0';
 
