@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * print_string - prints strings from parameters passed
+ * print_strings - prints strings from parameters passed
  * @separator: string
  * @n: number of strings
  * Return: void
  */
 
-void print_string(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list args;
 	unsigned int i;
