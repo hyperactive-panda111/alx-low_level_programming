@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_strings - prints strings from parameters passed
+ * print_string - prints strings from parameters passed
  * @separator: string
  * @n: number of strings
  * Return: void
