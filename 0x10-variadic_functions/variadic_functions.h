@@ -3,6 +3,7 @@
 
 #include <stdarg.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 int _putchar(char s);
 int sum_them_all(const unsigned int n, ...);
