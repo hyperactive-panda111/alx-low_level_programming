@@ -1,4 +1,4 @@
-#include "variadic_function.h"
+#include "variadic_functions.h"
 /**
  * print_all - prints
  * @format: format specifier
@@ -20,7 +20,7 @@ void print_all(const char * const format, ...)
 			{
 				printf(", ");
 				break;
-			} j++;
+			} x++;
 		}
 		switch (format[a])
 		{
@@ -31,7 +31,7 @@ void print_all(const char * const format, ...)
 				printf("%d", va_arg(args, int)), b = 1;
 				break;
 			case 'f':
-				printf("%f", va_arg(args, float)), b = 1;
+				printf("%f", va_arg(args, double)), b = 1;
 				break;
 			case 's':
 				s = va_arg(args, char *), b = 1;
@@ -40,7 +40,7 @@ void print_all(const char * const format, ...)
 					printf("(nil)");
 					break;
 				}
-				printf("%s", va_arg(args, s)), b = 1;
+				printf("%s", s);
 				break;
 		}
 		a++;
