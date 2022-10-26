@@ -24,4 +24,5 @@ int pop_listint(listint_t **head)
 	*head = tmp;
 
 	return (i);
+}
 
