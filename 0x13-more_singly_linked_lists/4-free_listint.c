@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
- *  * free_listint - define function
- *   * @head: describe argument
- *    */
+ * free_listint - define function
+ * @head: describe argument
+ */
 
 void free_listint(listint_t *head)
 {
@@ -11,4 +11,3 @@ void free_listint(listint_t *head)
 	free_listint(head->next);
 	free(head);
 }
-
