@@ -25,9 +25,9 @@ int binary_search(int *array, size_t size, int value)
 		for (i = start; i <= end; i++)
 		{
 			if (i == end)
-				print("%d", array[i]);
+				printf("%d", array[i]);
 			else
-				print("%d ," array[i]);
+				printf("%d ,", array[i]);
 		}
 
 		mid = (start + end) / 2;
